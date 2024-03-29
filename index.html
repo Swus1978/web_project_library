@@ -19,12 +19,13 @@
         <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
         <ul class="nav__links">
           <li>
-            <a href="#staff" class="nav__link" aria-label="Los preferidos de nuestro staff">Los preferidos
+            <a href="#los-preferidos-de-nuestro-staff" class="nav__link"
+              aria-label="Los preferidos de nuestro staff">Los preferidos
               de nuestro
               staff</a>
           </li>
           <li>
-            <a href="#" class="nav__link" aria-label="Eventos">Eventos</a>
+            <a href="#eventos" class="nav__link" aria-label="Eventos">Eventos</a>
           </li>
           <li>
             <a href="#" class="nav__link" aria-label="Miembro">Conviértete en miembro</a>
@@ -125,7 +126,7 @@
           </li>
         </ul>
       </section>
-      <section class="events">
+      <section class="events" id="eventos">
         <div class="events__content">
           <h2 class="events__heading">Próximos eventos:</h2>
           <h3 class="events__title">
@@ -157,30 +158,28 @@
         <div class="events__cover">
           <img class="events__image" src="images/cafe.png" alt="cafe">
           <div class="person person_name_feynman">
-            <p class="person_caption">Joan Feynman</p>
-            <img src="images/person_feynman.png" alt="Joan Feynman"
-              class="person__image person__image person__image_size_l">
+            <p class="person__caption">Joan Feynman</p>
+            <img src="images/person_feynman.png" alt="Joan Feynman" class="person__image person__image_size_l">
           </div>
           <div class="person person_name_burbidge">
-            <p class="person_caption">Margaret Burbidge</p>
+            <p class="person__caption">Margaret Burbidge</p>
             <img src="images/person_burbidge.png" alt="Margaret Burbidge" class="person__image person__image_size_m">
           </div>
           <div class="person person_name_cannon">
             <img src="images/person_cannon.png" alt="Annie  Cannon" class="person__image person__image_size_m">
-            <p class="person_caption">Annie Jump Cannon</p>
+            <p class="person__caption">Annie Jump Cannon</p>
           </div>
           <div class="person person_name_mitchell">
             <img src="images/person_mitchell.png" alt="Maria  Mitchell" class="person__image person__image_size_s">
-            <p class="person_caption">Maria Mitchell</p>
+            <p class="person__caption">Maria Mitchell</p>
           </div>
           <div class="person person_name_tarter">
-            <p class="person_caption">Jill Tarter</p>
+            <p class="person__caption">Jill Tarter</p>
             <img src="images/person_tarter.png" alt="Jill Tarter" class="person__image person__image_size_m">
           </div>
         </div>
-  </div>
-  </section>
-  </main>
+      </section>
+    </main>
   </div>
 </body>
 
