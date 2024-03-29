@@ -252,15 +252,15 @@
 
 .person_name_feynman {
   position: absolute;
-  bottom: 450px;
-  left: 319px;
+  top: -30px;
+  right: 319px;
 
 }
 
 
 .person_name_burbidge {
   position: absolute;
-  bottom: 354px;
+  top: 96px;
   right: 125px;
 
 }
@@ -280,7 +280,7 @@
 
 .person_name_tarter {
   position: absolute;
-  bottom: 371px;
+  top: 79px;
   left: 159px;
 }
 
