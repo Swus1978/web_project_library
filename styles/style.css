@@ -362,19 +362,17 @@
   justify-content: space-between;
   height: 50vh;
   position: relative;
-
 }
 
 .footer__columns {}
 
-.footer__column_content_hours {
+.footer__column__content_hours {
   position: absolute;
   top: 60px;
   right: 240px;
-
 }
 
-.footer__column_content_social {
+.footer__column__content_social {
   position: absolute;
   right: 80px;
   top: 60px;
@@ -387,17 +385,16 @@
   left: 80px;
   top: 60px;
   margin-right: auto;
-
 }
 
-.footer__column-heading {
+.footer__column__heading {
   position: absolute;
   top: 20px;
   margin-bottom: 10px;
 }
 
 .footer__list {
-  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  /* Elimina los estilos predeterminados del navegador para las listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
