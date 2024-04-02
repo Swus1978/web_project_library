@@ -306,3 +306,123 @@
   margin: 0;
 
 }
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+}
+
+.step {
+  flex-basis: 220px;
+
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  position: relative;
+
+}
+
+.footer__columns {}
+
+.footer__column_content_hours {
+  position: absolute;
+  top: 60px;
+  right: 240px;
+
+}
+
+.footer__column_content_social {
+  position: absolute;
+  right: 80px;
+  top: 60px;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+  position: absolute;
+  left: 80px;
+  top: 60px;
+  margin-right: auto;
+
+}
+
+.footer__column-heading {
+  position: absolute;
+  top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 16px;
+}
+
+.footer__list-item {
+  margin-bottom: 10px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  text-decoration: none;
+  color: #fff;
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  position: absolute;
+  bottom: 100px;
+  left: 80px;
+}
