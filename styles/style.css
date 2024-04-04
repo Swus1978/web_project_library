@@ -362,7 +362,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 50vh;
+  height: 45vh;
 }
 
 .footer__columns {
@@ -397,9 +397,10 @@
 .footer__logo {
   position: relative;
   right: 180px;
-  bottom: 160px;
+  bottom: 120px;
   width: 58px;
   height: 80px;
+
 }
 
 .footer__column-heading {
@@ -430,6 +431,5 @@
 .footer__copyright {
   position: absolute;
   left: 80px;
-  top: 100px;
-  margin-top: 100px;
+  bottom: 100px;
 }
