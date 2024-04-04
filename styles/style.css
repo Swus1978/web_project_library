@@ -396,14 +396,14 @@
 
 .footer__logo {
   position: relative;
-  right: 80px;
-  margin-right: 80px;
+  right: 180px;
+  margin: auto 80px;
   bottom: 60px;
   width: 58px;
   height: 80px;
 }
 
-.footer__heading {
+.footer__column-heading {
   margin-bottom: 10px;
 }
 
