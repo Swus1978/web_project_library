@@ -95,7 +95,7 @@
   background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
   padding: 100px 0 140px;
-  background-position: auto;
+
   margin-top: 40px;
 }
 
@@ -379,7 +379,6 @@
 }
 
 .footer__column_content_hours {
-  max-width: auto;
   position: absolute;
   top: 60px;
   left: 880px;
@@ -390,7 +389,6 @@
   position: absolute;
   top: 60px;
   right: 80px;
-  max-width: auto;
   margin-left: 80px;
 }
 
