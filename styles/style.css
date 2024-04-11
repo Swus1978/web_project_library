@@ -430,14 +430,11 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
-  display: inline-block;
-  align-items: center;
-  column-gap: 80px;
 }
 
 
 .footer__copyright {
   position: absolute;
   left: 80px;
-  bottom: 20px;
+  margin-top: 100px;
 }
