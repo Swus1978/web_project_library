@@ -377,7 +377,7 @@
 }
 
 .footer__column {
-  position: absolute;
+  position: relative;
   bottom: 60px;
 }
 
@@ -398,7 +398,7 @@
 .footer__logo {
   position: relative;
   right: 180px;
-  bottom: 120px;
+  bottom: 0px;
   width: 58px;
   height: 80px;
 
@@ -420,9 +420,6 @@
 }
 
 .footer__social-icon {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
   height: 16px;
   width: 16px;
 }
@@ -430,6 +427,9 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 
